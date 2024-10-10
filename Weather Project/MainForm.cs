@@ -1,3 +1,5 @@
+using System.Diagnostics.Eventing.Reader;
+
 namespace Weather_Project;
 
 public partial class MainForm : Form
@@ -24,6 +26,7 @@ public partial class MainForm : Form
 
     private async void buttonWeather_Click(object sender, EventArgs e)
     {
+        buttonLocation.Enabled = false;
         await Weather.GetForeCast(LocationHelper.GetLatLon(comboBoxCountry.SelectedIndex, comboBoxCity.SelectedIndex));
         panelLocation.Visible = false;
         panelWeatherToday.Visible = true;
@@ -57,6 +60,17 @@ public partial class MainForm : Form
         for (int i = 0; i < PictureBoxes.Count; i++)
         {
             PictureBoxes[i].Image = new Bitmap($"Weather Icons/{forecast[0][i]}.png");
+        }
+
+        foreach (Label lbl in UVLabels)
+        {
+            int idx = Convert.ToInt16(lbl.Text);
+            if (idx < 3) { lbl.BackColor = Color.Green; lbl.ForeColor = Color.White; }
+            else if (idx < 6) { lbl.BackColor = Color.Yellow; lbl.ForeColor = Color.Black; }
+            else if (idx < 8) { lbl.BackColor = Color.Orange; lbl.ForeColor = Color.Black; }
+            else if (idx < 11) { lbl.BackColor = Color.Red; lbl.ForeColor = Color.White; }
+            else if (idx >= 11) { lbl.BackColor = Color.Purple; lbl.ForeColor = Color.White; }
+            else { lbl.BackColor = Color.Transparent; lbl.ForeColor = Color.Black; }
         }
     }
 
@@ -110,5 +124,6 @@ public partial class MainForm : Form
     {
         panelWeatherToday.Visible = false;
         panelLocation.Visible = true;
+        buttonLocation.Enabled = true;
     }
 }

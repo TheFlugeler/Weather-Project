@@ -1274,7 +1274,7 @@
             // labelUV23
             // 
             labelUV23.AutoSize = true;
-            labelUV23.Location = new Point(2, 220);
+            labelUV23.Location = new Point(14, 220);
             labelUV23.Name = "labelUV23";
             labelUV23.Size = new Size(28, 20);
             labelUV23.TabIndex = 4;
@@ -1355,7 +1355,7 @@
             // labelUV22
             // 
             labelUV22.AutoSize = true;
-            labelUV22.Location = new Point(2, 220);
+            labelUV22.Location = new Point(14, 220);
             labelUV22.Name = "labelUV22";
             labelUV22.Size = new Size(28, 20);
             labelUV22.TabIndex = 4;
@@ -1436,7 +1436,7 @@
             // labelUV21
             // 
             labelUV21.AutoSize = true;
-            labelUV21.Location = new Point(2, 220);
+            labelUV21.Location = new Point(14, 220);
             labelUV21.Name = "labelUV21";
             labelUV21.Size = new Size(28, 20);
             labelUV21.TabIndex = 4;
@@ -1517,7 +1517,7 @@
             // labelUV20
             // 
             labelUV20.AutoSize = true;
-            labelUV20.Location = new Point(2, 220);
+            labelUV20.Location = new Point(14, 220);
             labelUV20.Name = "labelUV20";
             labelUV20.Size = new Size(28, 20);
             labelUV20.TabIndex = 4;
@@ -1598,7 +1598,7 @@
             // labelUV19
             // 
             labelUV19.AutoSize = true;
-            labelUV19.Location = new Point(2, 220);
+            labelUV19.Location = new Point(14, 220);
             labelUV19.Name = "labelUV19";
             labelUV19.Size = new Size(28, 20);
             labelUV19.TabIndex = 4;
@@ -1679,7 +1679,7 @@
             // labelUV18
             // 
             labelUV18.AutoSize = true;
-            labelUV18.Location = new Point(2, 220);
+            labelUV18.Location = new Point(14, 220);
             labelUV18.Name = "labelUV18";
             labelUV18.Size = new Size(28, 20);
             labelUV18.TabIndex = 4;
@@ -1760,7 +1760,7 @@
             // labelUV17
             // 
             labelUV17.AutoSize = true;
-            labelUV17.Location = new Point(2, 220);
+            labelUV17.Location = new Point(14, 220);
             labelUV17.Name = "labelUV17";
             labelUV17.Size = new Size(28, 20);
             labelUV17.TabIndex = 4;
@@ -1841,7 +1841,7 @@
             // labelUV16
             // 
             labelUV16.AutoSize = true;
-            labelUV16.Location = new Point(2, 220);
+            labelUV16.Location = new Point(14, 220);
             labelUV16.Name = "labelUV16";
             labelUV16.Size = new Size(28, 20);
             labelUV16.TabIndex = 4;
@@ -1922,7 +1922,7 @@
             // labelUV15
             // 
             labelUV15.AutoSize = true;
-            labelUV15.Location = new Point(2, 220);
+            labelUV15.Location = new Point(14, 220);
             labelUV15.Name = "labelUV15";
             labelUV15.Size = new Size(28, 20);
             labelUV15.TabIndex = 4;
@@ -2003,7 +2003,7 @@
             // labelUV14
             // 
             labelUV14.AutoSize = true;
-            labelUV14.Location = new Point(2, 220);
+            labelUV14.Location = new Point(14, 220);
             labelUV14.Name = "labelUV14";
             labelUV14.Size = new Size(28, 20);
             labelUV14.TabIndex = 4;
@@ -2084,7 +2084,7 @@
             // labelUV13
             // 
             labelUV13.AutoSize = true;
-            labelUV13.Location = new Point(2, 220);
+            labelUV13.Location = new Point(14, 220);
             labelUV13.Name = "labelUV13";
             labelUV13.Size = new Size(28, 20);
             labelUV13.TabIndex = 4;
@@ -2165,7 +2165,7 @@
             // labelUV12
             // 
             labelUV12.AutoSize = true;
-            labelUV12.Location = new Point(2, 220);
+            labelUV12.Location = new Point(14, 220);
             labelUV12.Name = "labelUV12";
             labelUV12.Size = new Size(28, 20);
             labelUV12.TabIndex = 4;
@@ -2246,7 +2246,7 @@
             // labelUV11
             // 
             labelUV11.AutoSize = true;
-            labelUV11.Location = new Point(2, 220);
+            labelUV11.Location = new Point(14, 220);
             labelUV11.Name = "labelUV11";
             labelUV11.Size = new Size(28, 20);
             labelUV11.TabIndex = 4;
@@ -2327,7 +2327,7 @@
             // labelUV10
             // 
             labelUV10.AutoSize = true;
-            labelUV10.Location = new Point(2, 220);
+            labelUV10.Location = new Point(14, 220);
             labelUV10.Name = "labelUV10";
             labelUV10.Size = new Size(28, 20);
             labelUV10.TabIndex = 4;
@@ -2408,7 +2408,7 @@
             // labelUV09
             // 
             labelUV09.AutoSize = true;
-            labelUV09.Location = new Point(2, 220);
+            labelUV09.Location = new Point(14, 220);
             labelUV09.Name = "labelUV09";
             labelUV09.Size = new Size(28, 20);
             labelUV09.TabIndex = 4;
@@ -2489,7 +2489,7 @@
             // labelUV08
             // 
             labelUV08.AutoSize = true;
-            labelUV08.Location = new Point(2, 220);
+            labelUV08.Location = new Point(14, 220);
             labelUV08.Name = "labelUV08";
             labelUV08.Size = new Size(28, 20);
             labelUV08.TabIndex = 4;
@@ -2570,7 +2570,7 @@
             // labelUV07
             // 
             labelUV07.AutoSize = true;
-            labelUV07.Location = new Point(2, 220);
+            labelUV07.Location = new Point(14, 220);
             labelUV07.Name = "labelUV07";
             labelUV07.Size = new Size(28, 20);
             labelUV07.TabIndex = 4;
@@ -2651,7 +2651,7 @@
             // labelUV06
             // 
             labelUV06.AutoSize = true;
-            labelUV06.Location = new Point(2, 220);
+            labelUV06.Location = new Point(14, 220);
             labelUV06.Name = "labelUV06";
             labelUV06.Size = new Size(28, 20);
             labelUV06.TabIndex = 4;
@@ -2732,7 +2732,7 @@
             // labelUV05
             // 
             labelUV05.AutoSize = true;
-            labelUV05.Location = new Point(2, 220);
+            labelUV05.Location = new Point(14, 220);
             labelUV05.Name = "labelUV05";
             labelUV05.Size = new Size(28, 20);
             labelUV05.TabIndex = 4;
@@ -2813,7 +2813,7 @@
             // labelUV04
             // 
             labelUV04.AutoSize = true;
-            labelUV04.Location = new Point(2, 220);
+            labelUV04.Location = new Point(14, 220);
             labelUV04.Name = "labelUV04";
             labelUV04.Size = new Size(28, 20);
             labelUV04.TabIndex = 4;
@@ -2894,7 +2894,7 @@
             // labelUV03
             // 
             labelUV03.AutoSize = true;
-            labelUV03.Location = new Point(2, 220);
+            labelUV03.Location = new Point(14, 220);
             labelUV03.Name = "labelUV03";
             labelUV03.Size = new Size(28, 20);
             labelUV03.TabIndex = 4;
@@ -2975,7 +2975,7 @@
             // labelUV02
             // 
             labelUV02.AutoSize = true;
-            labelUV02.Location = new Point(2, 220);
+            labelUV02.Location = new Point(14, 220);
             labelUV02.Name = "labelUV02";
             labelUV02.Size = new Size(28, 20);
             labelUV02.TabIndex = 4;
@@ -3056,7 +3056,7 @@
             // labelUV01
             // 
             labelUV01.AutoSize = true;
-            labelUV01.Location = new Point(2, 220);
+            labelUV01.Location = new Point(14, 220);
             labelUV01.Name = "labelUV01";
             labelUV01.Size = new Size(28, 20);
             labelUV01.TabIndex = 4;
@@ -3137,7 +3137,7 @@
             // labelUV00
             // 
             labelUV00.AutoSize = true;
-            labelUV00.Location = new Point(2, 220);
+            labelUV00.Location = new Point(14, 220);
             labelUV00.Name = "labelUV00";
             labelUV00.Size = new Size(28, 20);
             labelUV00.TabIndex = 4;
@@ -3198,10 +3198,10 @@
             BackgroundImage = Images.Weather_Background;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1182, 753);
-            Controls.Add(panelWeatherToday);
             Controls.Add(labelTitle);
             Controls.Add(panelLocation);
             Controls.Add(panelWeatherWeek);
+            Controls.Add(panelWeatherToday);
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximumSize = new Size(1200, 800);
             MinimumSize = new Size(1200, 800);
