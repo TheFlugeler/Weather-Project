@@ -64,7 +64,7 @@ public partial class MainForm : Form
 
         for (int i = 0; i < PictureBoxes.Count; i++)
         {
-            PictureBoxes[i].Image = new Bitmap($"Resources/Symbols/{forecast[0][i]}.png");
+            PictureBoxes[i].Image = new Bitmap($"{Application.ExecutablePath}/../../../../Resources/Symbols/{forecast[0][i]}.png");
         }
 
         foreach (Label lbl in UVLabels)

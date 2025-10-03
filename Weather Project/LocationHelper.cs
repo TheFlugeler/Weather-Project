@@ -8,7 +8,7 @@ namespace Weather_Project;
 
 static class LocationHelper
 {
-    private const string latLonPath = "Resources/worldcities.csv";
+    private static string latLonPath = $"{Application.ExecutablePath}/../../../../Resources/worldcities.csv";
     private static List<List<string[]>> CitiesByCountry = new();
 
     public static void CreateLists()
