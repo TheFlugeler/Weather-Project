@@ -27,6 +27,11 @@ public partial class MainForm : Form
     private async void buttonWeather_Click(object sender, EventArgs e)
     {
         buttonLocation.Enabled = false;
+        if(comboBoxCity.SelectedIndex == -1 || comboBoxCountry.SelectedIndex == -1)
+        {
+            MessageBox.Show("Please select a city and country", "Error");
+            return;
+        }
         await Weather.GetForeCast(LocationHelper.GetLatLon(comboBoxCountry.SelectedIndex, comboBoxCity.SelectedIndex));
         panelLocation.Visible = false;
         panelWeatherToday.Visible = true;
@@ -59,7 +64,7 @@ public partial class MainForm : Form
 
         for (int i = 0; i < PictureBoxes.Count; i++)
         {
-            PictureBoxes[i].Image = new Bitmap($"Weather Icons/{forecast[0][i]}.png");
+            PictureBoxes[i].Image = new Bitmap($"Resources/Symbols/{forecast[0][i]}.png");
         }
 
         foreach (Label lbl in UVLabels)
