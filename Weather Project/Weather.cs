@@ -8,25 +8,25 @@ static class Weather
     public static async Task GetForeCast(string latlon)
     {
         throw NotImplementedException("MeteoMatic Web API has retracted their free plan and so this project has been deprecated");
-        string today = DateTime.Today.ToString("s");
-        HttpClient client = new();
-
-        Uri uri = new($"https://api.meteomatics.com/{today}ZP1D:PT1H/weather_symbol_1h:idx,t_2m:C,precip_1h:mm,uv:idx,wind_speed_10m:ms,wind_dir_10m:d/{latlon}/csv");
-
-        string auth = "school_coulter_joshua:Due4w18VE1";
-        var base64auth = Convert.ToBase64String(Encoding.ASCII.GetBytes(auth));
-
-        HttpRequestMessage message = new(HttpMethod.Get, uri);
-        message.Headers.Authorization = new("Basic", base64auth);
-
-        var response = await client.SendAsync(message);
-        response.EnsureSuccessStatusCode();
-        string responseBody = await response.Content.ReadAsStringAsync();
-
-        StreamWriter sw = new("weather.csv",false);
-        sw.Write(responseBody);
-        sw.Close();
-        client.Dispose();
+        //string today = DateTime.Today.ToString("s");
+        //HttpClient client = new();
+//
+        //Uri uri = new($"https://api.meteomatics.com/{today}ZP1D:PT1H/weather_symbol_1h:idx,t_2m:C,precip_1h:mm,uv:idx,wind_speed_10m:ms,wind_dir_10m:d/{latlon}/csv");
+//
+        //string auth = "Auth details (not shown for security)";
+        //var base64auth = Convert.ToBase64String(Encoding.ASCII.GetBytes(auth));
+//
+        //HttpRequestMessage message = new(HttpMethod.Get, uri);
+        //message.Headers.Authorization = new("Basic", base64auth);
+//
+        //var response = await client.SendAsync(message);
+        //response.EnsureSuccessStatusCode();
+        //string responseBody = await response.Content.ReadAsStringAsync();
+//
+        //StreamWriter sw = new("weather.csv",false);
+        //sw.Write(responseBody);
+        //sw.Close();
+        //client.Dispose();
     }
 
     public static List<List<string>> GetCSV()
