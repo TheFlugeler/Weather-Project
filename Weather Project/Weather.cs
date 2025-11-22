@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using System;
 
 namespace Weather_Project;
 
@@ -6,6 +7,7 @@ static class Weather
 {
     public static async Task GetForeCast(string latlon)
     {
+        throw NotImplementedException("MeteoMatic Web API has retracted their free plan and so this project has been deprecated");
         string today = DateTime.Today.ToString("s");
         HttpClient client = new();
 
